@@ -1,0 +1,18 @@
+## Find the value, and the index of the value, of the minimum absolute difference between two numbers in a list.
+
+## For this problem, I made an empty of size np.empty((N-1,N-1)) and filled with repo[:] = np.nan;, then stepped forward in the matrix, so it's like an upper
+## triangular matrix, of the absolute difference between values. This took about 20 minutes.
+
+array_of_numbers = np.array([0.5, -6.0, -2.1, 3.78, 9.2, 17.0, -11.2]); #arbirary, could be longer
+
+N = len(array_of_numbers);
+delta_vals = np.empty((N-1,N-1))
+delta_vals[:] = np.nan;
+
+for j in range(0,N-2,1):
+    for i in range(j+1,N-1,1):
+        delta_vals[j,i] = abs(array_of_numbers[j] - array_of_numbers[i])
+
+np.nanmin(delta_vals)
+delta_min = np.where(delta_vals==np.nanmin(delta_vals))
+print(delta_min)

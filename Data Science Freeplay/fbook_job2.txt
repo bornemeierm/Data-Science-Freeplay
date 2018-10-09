@@ -1,0 +1,20 @@
+Facebook's mission is to give people the power to build community and bring the world closer together. Through our family of apps and services, we're building a different kind of company that connects billions of people around the world, gives them ways to share what matters most to them, and helps bring people closer together. Whether we're creating new products or helping a small business expand its reach, people at Facebook are builders at heart. Our global teams are constantly iterating, solving problems, and working together to empower people around the world to build community and connect in meaningful ways. Together, we can help people build stronger communities — we're just getting started.
+Community Operations focus is on improving the health of our products and helping people understand how to use them through both direct support interactions as well as scalable solutions. Those who join our teams are very passionate about solving people’s issues and are strong advocates for the Facebook community. We need influencers who can align cross-functional partners to ensure the best possible experience for our platforms. If you like helping people, Community Operations is for you. 
+
+Facebook is seeking a Reporting and Analytics Analyst to join the Reporting and Analytics team within Community Operations. Members of this team focus on building and maintaining the centralized, certified, and standardized data logging and reporting system that enables the Community Operations team to intelligently serve our community at scale. Additionally, the team is responsible for providing insights through analysis that helps drive strategy within Community Operations. 
+
+RESPONSIBILITIES
+Develop, build, and maintain reports that contain actionable metrics to monitor the performance of our Operations.
+Mine massive amounts of data and extract impactful insights that influence the strategy for Community Operations.
+MINIMUM QUALIFICATIONS
+BA/BS degree.
+4+ years of experience using SQL or other querying language.
+Ability to communicate to a variety of audiences and stakeholders.
+Experience operating strategic projects with cross-functional partners.
+Understanding of statistical analysis.
+Ability to initiate and drive projects to completion with minimal guidance.
+PREFERRED QUALIFICATIONS
+Degree in Math, Statistics, Economics, Computer Science, or other quantitative field.
+Experience in at least one scripting language (PHP, Python, Perl, etc.)
+Experience with large data sets and distributed computing (Hive/Hadoop)
+Experience with packages such as R, MATLAB, SPSS, SAS, Stata, etc.
