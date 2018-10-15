@@ -1,0 +1,98 @@
+############################## Imports ##############################
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+from collections import defaultdict, Counter
+import random
+import time
+from collections import defaultdict
+from __future__ import division
+from scipy import stats
+
+############################## List ##############################
+
+a = range(4)
+b = a[:]    #copies a without pointing
+#c = list(a) #copies a without pointing
+x = [4,5,6]
+
+a.extend(x)
+a.append(7)  #adds the single element to the end
+
+a[0:0] = [-3, -2, -1]  #slices onto the front end of the list
+
+## initialize an empty NxN list
+N = 6;
+xx = [[None for _ in range(N)] for _ in range(N)]
+print(xx)
+
+## or even easier
+xy = [][];
+
+############################## Array ##############################
+
+zero_array = np.zeros(N)
+ones_array = np.ones(N)
+
+
+x = np.array([1,2,3])
+y = np.array([4,5,6])
+
+x.shape()
+x.size()
+x.ndim()
+
+
+j = np.random.random_sample(10)
+
+z = np.concatenate((x,y)),axis=0);  #axis = 0 for 1-D array
+
+w = np.ndarray.tolist(z); #converts an array (or n-d array) into a list
+
+## maximum or maximum discounting NaN
+maxvalue = np.nanmax(w);
+index_max = np.where(w == np.nanmax(w))
+
+## maximum (with no NaN considered)
+maxvalue = np.max(w);
+index_max = np.where(w == np.nmax(w))
+
+
+
+############################## n-d array ##############################
+a = np.ndarray([[,,],[,,],[,,]]) #2-D matrix structure, just fill in the numbers;
+
+b = np.zeros((M,N))
+b = np.ones((M,N))
+c = np.empty(M,N))
+d = np.diag((M,N),k) #kth diagonal from the main diagonal, if M=N
+e = np.eye(N)
+
+import random;
+f = random.random((3,3)) #uniform on 0 to 1
+g = random.normal((3,3)) #normal on 0 to 1
+h = random.randomint(1,10,(3,3))
+
+f[1][2] #to index an 2-D array. Same convention for n-dimensions.
+
+## for range over [a,b) , use following: (b-a) * random.random(()) + a
+
+
+
+np.shape()
+np.size()
+
+j = np.diag((2,1),1)
+print(j)
+# [[0 2 0]
+# [0 0 1]
+# [0 0 0]]
+
+k = np.diag([1],k=1)
+print(k)
+# [[0 1]
+# [0 0]]
+
+z = np.concatenate((x,y)),axis=0);  #axis = 0 for 1-D array

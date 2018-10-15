@@ -1,0 +1,26 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+from collections import defaultdict, Counter
+import random
+import time
+from collections import defaultdict
+from __future__ import division
+from scipy import stats
+
+a = np.asarray([2, 7, 3, 4], dtype = int);
+
+def get_products_of_all_ints_except_at_index(x):
+    N = len(x)
+    b = np.zeros(N,dtype=int)
+
+    for i in range(N):
+        if i==0:
+            b[i] = np.prod(x[i+1:N]);
+        elif i>0 and i<N:
+            b[i] = np.prod(x[0:i-1]) * np.prod(x[i+1:N]);
+        else:
+            b[i] = np.prod(x[0:N-1])
+    c = np.ndarray.tolist(b);
+    return c
