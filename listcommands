@@ -71,7 +71,7 @@ d = np.diag((M,N),k) #kth diagonal from the main diagonal, if M=N
 e = np.eye(N)
 
 import random;
-f = random.random((3,3)) #uniform on 0 to 1
+f = random.random() 
 g = random.normal((3,3)) #normal on 0 to 1
 h = random.randomint(1,10,(3,3))
 

@@ -1,0 +1,33 @@
+my_string = 'cciiv';
+
+
+def pal_check2(items):
+    counts = dict()
+    for i in items:
+        if i in counts:
+            del counts[i]
+        else:
+            #counts[i] = counts.get(i, 0) + 1
+            counts[i] = 1
+    return counts, len(e) >= 1
+
+
+    '''
+
+    def pal_check2(items):
+        counts = dict()
+        for i in items:
+            counts[i] = counts.get(i, 0) + 1
+        return counts
+
+        def pal_check(my_string):
+            my_set = set()
+            for x in my_string:
+                if x in my_set:
+                    my_set.remove(x)
+                else:
+                    my_set.add(x)
+            return len(my_set) <= 1
+
+
+    '''
